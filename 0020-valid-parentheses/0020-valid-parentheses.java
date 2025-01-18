@@ -1,6 +1,9 @@
 class Solution {
     public boolean isValid(String s) {
 
+        int n = s.length();
+        if (n % 2 != 0) return false;
+
         String res = "";
 
         boolean valid = true;
