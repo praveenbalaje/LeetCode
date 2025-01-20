@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/praveenbalaje/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/praveenbalaje/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2792-neighboring-bitwise-xor](https://github.com/praveenbalaje/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Bit Manipulation
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/praveenbalaje/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Simulation
 |  |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/praveenbalaje/LeetCode/tree/master/0013-roman-to-integer) |
+| [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 ## String
 |  |
 | ------- |
