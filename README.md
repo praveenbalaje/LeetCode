@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/praveenbalaje/LeetCode/tree/master/0283-move-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/praveenbalaje/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2145-grid-game](https://github.com/praveenbalaje/LeetCode/tree/master/2145-grid-game) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/praveenbalaje/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2792-neighboring-bitwise-xor](https://github.com/praveenbalaje/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/praveenbalaje/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2145-grid-game](https://github.com/praveenbalaje/LeetCode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Simulation
@@ -108,4 +110,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [2145-grid-game](https://github.com/praveenbalaje/LeetCode/tree/master/2145-grid-game) |
 <!---LeetCode Topics End-->
