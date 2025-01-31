@@ -15,14 +15,6 @@ class Solution {
             }
         }
 
-        System.out.println(res);
-        for(int i=0;i<grid.length;i++) {
-            for(int j=0;j<grid.length;j++) {
-                System.out.print(grid[i][j] + " ");
-            }
-            System.out.println(" ");
-        }
-
         if (res > 0 && res != grid.length * grid.length) {
             for (int i = 0; i < grid.length; i++) {
                 for (int j = 0; j < grid.length; j++) {
