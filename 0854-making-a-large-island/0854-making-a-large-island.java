@@ -18,33 +18,30 @@ class Solution {
         if (res > 0 && res != grid.length * grid.length) {
             for (int i = 0; i < grid.length; i++) {
                 for (int j = 0; j < grid.length; j++) {
-                    int s1 = 0;
-                    int s2 = 0;
-                    int s3=0;
-                    int s4=0;
+                    int sum = 0;
                     List<Integer> ls = new ArrayList<>();
 
                     if (grid[i][j] == 0) {
                         if (i + 1 < grid.length && grid[i + 1][j] != 0) {
-                            s1 = hm.get(grid[i + 1][j]);
+                            sum += hm.get(grid[i + 1][j]);
                             ls.add(grid[i + 1][j]);
                         }
                         if (j + 1 < grid.length && grid[i][j + 1] != 0 && !ls.contains(grid[i][j + 1])) {
-                            s2 = hm.get(grid[i][j + 1]);
+                            sum += hm.get(grid[i][j + 1]);
                             ls.add(grid[i][j + 1]);
                         }
                         if (i - 1 >= 0 && grid[i - 1][j] != 0 && !ls.contains(grid[i - 1][j])) {
-                            s3 = hm.get(grid[i - 1][j]);
+                            sum += hm.get(grid[i - 1][j]);
                             ls.add(grid[i - 1][j]);
                         }
                         if (j - 1 >= 0 && grid[i][j - 1] != 0 && !ls.contains(grid[i][j - 1])) {
-                            s4 = hm.get(grid[i][j - 1]);
+                            sum += hm.get(grid[i][j - 1]);
                             ls.add(grid[i][j - 1]);
                         }
                     }
 
-                    if (s1 + s2 +s3 +s4 > res) {
-                        res = s1 + s2 + s3 + s4;
+                    if (sum > res) {
+                        res = sum;
                     }
                 }
             } 
