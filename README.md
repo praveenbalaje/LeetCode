@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/praveenbalaje/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/praveenbalaje/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/praveenbalaje/LeetCode/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/praveenbalaje/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Bit Manipulation
 |  |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/praveenbalaje/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Linked List
 |  |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/praveenbalaje/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/praveenbalaje/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2685-first-completely-painted-row-or-column](https://github.com/praveenbalaje/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/praveenbalaje/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## String
 |  |
 | ------- |
