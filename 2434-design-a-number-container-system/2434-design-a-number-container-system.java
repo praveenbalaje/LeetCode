@@ -1,37 +1,35 @@
+import java.util.*;
+
 class NumberContainers {
-
-    HashMap<Integer, TreeSet<Integer>> num = new HashMap<>();
-
-    HashMap<Integer, Integer> position = new HashMap<>();
+    // Map to store numbers and their corresponding indices in sorted order
+    private HashMap<Integer, TreeSet<Integer>> numberToIndices;
+    
+    // Map to store index-to-number mapping
+    private HashMap<Integer, Integer> indexToNumber;
 
     public NumberContainers() {
-
+        numberToIndices = new HashMap<>();
+        indexToNumber = new HashMap<>();
     }
 
-    public void change(int index, int number) {
-        if (position.containsKey(index)) {
-            int oldNumber = position.get(index);
-            if (oldNumber != number) {
-                TreeSet<Integer> oldNum = num.get(oldNumber);
-                oldNum.remove(index);
-                if (oldNum.isEmpty()) {
-                    num.remove(oldNumber);
-                } else {
-                    num.put(oldNumber, oldNum);
+    public void change(int index, int newNumber) {
+        if (indexToNumber.containsKey(index)) {
+            int oldNumber = indexToNumber.get(index);
+            if (oldNumber != newNumber) {
+                TreeSet<Integer> oldIndices = numberToIndices.get(oldNumber);
+                oldIndices.remove(index);
+                if (oldIndices.isEmpty()) {
+                    numberToIndices.remove(oldNumber);
                 }
             }
         }
-        position.put(index, number);
-        addValue(num, number, index);
-    }
-
-    private static void addValue(HashMap<Integer, TreeSet<Integer>> map, int key, int value) {
-        map.computeIfAbsent(key, k -> new TreeSet<>()).add(value);
+        indexToNumber.put(index, newNumber);
+        numberToIndices.computeIfAbsent(newNumber, k -> new TreeSet<>()).add(index);
     }
 
     public int find(int number) {
-        if (num.containsKey(number)) {
-            return num.get(number).first();
+        if (numberToIndices.containsKey(number)) {
+            return numberToIndices.get(number).first();
         }
         return -1;
     }
@@ -40,6 +38,6 @@ class NumberContainers {
 /**
  * Your NumberContainers object will be instantiated and called as such:
  * NumberContainers obj = new NumberContainers();
- * obj.change(index,number);
+ * obj.change(index, number);
  * int param_2 = obj.find(number);
  */
