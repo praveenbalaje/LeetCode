@@ -11,7 +11,6 @@ class NumberContainers {
     public void change(int index, int number) {
         if (position.containsKey(index)) {
             int oldNumber = position.get(index);
-                System.out.println(number +"   :  " + oldNumber + "  index : " + index);
             if (oldNumber != number) {
                 TreeSet<Integer> oldNum = num.get(oldNumber);
                 oldNum.remove(index);
