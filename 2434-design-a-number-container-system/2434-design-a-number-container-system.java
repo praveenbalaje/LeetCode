@@ -14,7 +14,11 @@ class NumberContainers {
             if (oldNumber != number) {
                 TreeSet<Integer> oldNum = num.get(oldNumber);
                 oldNum.remove(index);
-                num.put(oldNumber, oldNum);
+                if (oldNum.isEmpty()) {
+                    num.remove(oldNumber);
+                } else {
+                    num.put(oldNumber, oldNum);
+                }
             }
         }
         position.put(index, number);
@@ -27,14 +31,9 @@ class NumberContainers {
 
     public int find(int number) {
         if (num.containsKey(number)) {
-            TreeSet<Integer> oldNum = num.get(number);
-            if (!oldNum.isEmpty()) {
-                return oldNum.first();
-            } else
-                return -1;
-        } else {
-            return -1;
+            return num.get(number).first();
         }
+        return -1;
     }
 }
 
