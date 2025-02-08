@@ -14,18 +14,11 @@ class NumberContainers {
             if (oldNumber != number) {
                 TreeSet<Integer> oldNum = num.get(oldNumber);
                 oldNum.remove(index);
-                num.put(oldNumber,oldNum);
-                position.put(index, number);
-                addValue(num,number, index);
+                num.put(oldNumber, oldNum);
             }
-        } else if (num.containsKey(number)) {
-            position.put(index, number);
-            addValue(num,number, index);
-        } else {
-            position.put(index, number);
-            addValue(num,number, index);
         }
-
+        position.put(index, number);
+        addValue(num, number, index);
     }
 
     private static void addValue(HashMap<Integer, TreeSet<Integer>> map, int key, int value) {
@@ -34,10 +27,11 @@ class NumberContainers {
 
     public int find(int number) {
         if (num.containsKey(number)) {
-             TreeSet<Integer> oldNum = num.get(number);
-             if(!oldNum.isEmpty()) {
+            TreeSet<Integer> oldNum = num.get(number);
+            if (!oldNum.isEmpty()) {
                 return oldNum.first();
-             } else  return -1;
+            } else
+                return -1;
         } else {
             return -1;
         }
