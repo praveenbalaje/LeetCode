@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/praveenbalaje/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/praveenbalaje/LeetCode/tree/master/3447-clear-digits) |
 | [3708-zigzag-grid-traversal-with-skip](https://github.com/praveenbalaje/LeetCode/tree/master/3708-zigzag-grid-traversal-with-skip) |
 ## Linked List
 |  |
@@ -121,10 +122,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/praveenbalaje/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/praveenbalaje/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/praveenbalaje/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [3447-clear-digits](https://github.com/praveenbalaje/LeetCode/tree/master/3447-clear-digits) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/praveenbalaje/LeetCode/tree/master/0020-valid-parentheses) |
+| [3447-clear-digits](https://github.com/praveenbalaje/LeetCode/tree/master/3447-clear-digits) |
 ## Two Pointers
 |  |
 | ------- |
