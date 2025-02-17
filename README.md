@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/praveenbalaje/LeetCode/tree/master/0066-plus-one) |
+| [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/praveenbalaje/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/praveenbalaje/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/praveenbalaje/LeetCode/tree/master/0136-single-number) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/praveenbalaje/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/praveenbalaje/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/praveenbalaje/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/praveenbalaje/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 <!---LeetCode Topics End-->
