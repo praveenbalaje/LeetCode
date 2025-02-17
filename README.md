@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/praveenbalaje/LeetCode/tree/master/0046-permutations) |
 | [0066-plus-one](https://github.com/praveenbalaje/LeetCode/tree/master/0066-plus-one) |
 | [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/praveenbalaje/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/praveenbalaje/LeetCode/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/praveenbalaje/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/praveenbalaje/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
