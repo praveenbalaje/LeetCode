@@ -1,37 +1,36 @@
+import java.util.HashMap;
+
 class Solution {
     public int lenLongestFibSubseq(int[] arr) {
-        int res = 0;
-        HashMap<Integer,Integer> map = new HashMap<>();
+        int maxLength = 0;
+        HashMap<Integer, Integer> indexMap = new HashMap<>();
 
-        for(int i=0;i< arr.length; i++) {
-            map.put(arr[i],i);
+        // Store the index of each number in the array for quick lookups
+        for (int i = 0; i < arr.length; i++) {
+            indexMap.put(arr[i], i);
         }
 
-        System.out.println(map);
+        // Iterate through all pairs (i, j) to find Fibonacci-like subsequences
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                int first = arr[i];   // First number of sequence
+                int second = arr[j];  // Second number of sequence
+                int length = 2;       // Initial sequence length
 
-        for(int i=0;i< arr.length-1; i++) {
+                // Continue forming the Fibonacci-like sequence
+                while (indexMap.containsKey(first + second)) {
+                    int next = first + second; // Compute next term
+                    first = second;
+                    second = next;
+                    length++;
+                }
 
-        for(int l=i;l<arr.length-1;l++) {
-            int j = i;
-            int k = l+1;
-            int sum = arr[j] + arr[k];
-            int seq = 0;
-            while(map.containsKey(sum)) {
-                System.out.println(sum + " i : " + i);
-                int value = map.get(sum);
-                j = k;
-                k = value;
-                sum = arr[j] + arr[k];
-                seq += 1;
+                // Update the maximum length found
+                maxLength = Math.max(maxLength, length);
             }
-
-            if(seq>0 && seq+2 > res) res = seq+2;
         }
 
-
-        }
-
-        return res;
-
+        // A valid Fibonacci-like sequence must have at least 3 elements
+        return maxLength > 2 ? maxLength : 0;
     }
 }
