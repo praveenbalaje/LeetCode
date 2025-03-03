@@ -20,7 +20,6 @@ class Solution {
             count--;
         }
         int a = 0;
-        System.out.println(res + " j : " + j);
         while(j < nums.length) {
             res[j] = more[a];
             j++;
