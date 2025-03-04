@@ -7,7 +7,6 @@ class Solution {
             arr.add((int) Math.pow(3,a));
             a++;
         }   
-        System.out.println(arr);
         for (int i = arr.size()-1; i>=0; i--) {
             if(n>=arr.get(i)) {
                 n -= arr.get(i);
