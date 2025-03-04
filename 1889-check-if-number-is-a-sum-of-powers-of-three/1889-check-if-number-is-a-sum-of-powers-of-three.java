@@ -11,6 +11,9 @@ class Solution {
             if(n>=arr.get(i)) {
                 n -= arr.get(i);
             }
+            if(n==0 || n >= arr.get(i)) {
+                break;
+            }
     }
     if(n == 0) return true;
      else return false;
