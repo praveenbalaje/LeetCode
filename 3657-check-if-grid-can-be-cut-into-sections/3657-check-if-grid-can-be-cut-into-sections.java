@@ -12,9 +12,6 @@ class Solution {
         // Sort rectangles by their starting coordinate in the given dimension
         Arrays.sort(rectangles, (a, b) -> Integer.compare(a[dim], b[dim]));
 
-        for(int i=0;i<rectangles.length;i++) {
-            System.out.println(rectangles[i][dim]);
-        }
 
         // Track the furthest ending coordinate seen so far
         int furthestEnd = rectangles[0][dim + 2];
@@ -25,7 +22,6 @@ class Solution {
             // If current rectangle starts after the furthest end we've seen,
             // we found a gap where a cut can be made
             if (furthestEnd <= rect[dim]) {
-                System.out.println("dim" + dim +" gapcount " + gapCount);
                 gapCount++;
             }
 
