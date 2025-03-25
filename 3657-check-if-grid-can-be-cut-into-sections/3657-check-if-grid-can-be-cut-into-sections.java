@@ -27,6 +27,8 @@ class Solution {
 
             // Update the furthest ending coordinate
             furthestEnd = Math.max(furthestEnd, rect[dim + 2]);
+
+            if(gapCount >=2 ) break;
         }
 
         // We need at least 2 gaps to create 3 sections
