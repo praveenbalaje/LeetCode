@@ -7,16 +7,12 @@ class Solution {
             }
             return Integer.compare(a[0], b[0]); // If end times are equal, sort by start time
         });
-        for (int i = 0; i < intervals.length; i++) {
-            System.out.println(intervals[i][0] + "  " + intervals[i][1]);
-        }
 
         int[][] res = new int[intervals.length][2];
         int count = 0;
         res[count][0] = intervals[0][0];
         res[count][1] = intervals[0][1];
         for (int i = 1; i < intervals.length; i++) {
-            System.out.println("loop" + intervals[i][0] + " : " +  intervals[count][1]);
             if (intervals[i][0] <= res[count][1]) {
                 if(intervals[i][1] > res[count][1]) {
                 res[count][1] = intervals[i][1];
