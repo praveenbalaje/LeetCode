@@ -1,12 +1,7 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
 
-        Arrays.sort(intervals, (a, b) -> {
-            if (a[0] == b[0]) {
-                return Integer.compare(a[1], b[1]); // Sort by end time
-            }
-            return Integer.compare(a[0], b[0]); // If end times are equal, sort by start time
-        });
+     Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
 
         int[][] res = new int[intervals.length][2];
         int count = 0;
