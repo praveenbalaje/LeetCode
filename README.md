@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/praveenbalaje/LeetCode/tree/master/0046-permutations) |
+| [0056-merge-intervals](https://github.com/praveenbalaje/LeetCode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/praveenbalaje/LeetCode/tree/master/0066-plus-one) |
 | [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/praveenbalaje/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/praveenbalaje/LeetCode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/praveenbalaje/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/praveenbalaje/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
