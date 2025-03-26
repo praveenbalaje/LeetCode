@@ -12,24 +12,16 @@ class Solution {
 
         int uni = arr[arr.length / 2];
         int ans = 0;
+        int prev = 0;
 
         for (int i = 0; i < arr.length; i++) {
             int value = arr[i];
-            if (uni > value) {
-                while (uni > value) {
-                    value += x;
-                    ans++;
-                }
-            } else {
-                while (uni < value) {
-                    value -= x;
-                    ans++;
-                }
+            if(value % x != uni %x) {
+                return -1;
             }
-            if (value != uni) {
-                ans = -1;
-                break;
-            }
+
+            ans += Math.abs(uni - value) / x;
+
         }
 
         return ans;
