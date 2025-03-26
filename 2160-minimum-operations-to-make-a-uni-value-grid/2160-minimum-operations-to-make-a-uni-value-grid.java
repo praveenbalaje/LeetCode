@@ -1,8 +1,6 @@
 class Solution {
     public int minOperations(int[][] grid, int x) {
         int[] arr = new int[grid.length * grid[0].length];
-        if (grid.length == 1 && grid[0].length == 1)
-            return 0;
         int count = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
@@ -12,29 +10,28 @@ class Solution {
 
         Arrays.sort(arr);
 
-        int uni = arr[arr.length/2];
+        int uni = arr[arr.length / 2];
         int ans = 0;
 
-        for(int i=0;i<arr.length;i++) {
+        for (int i = 0; i < arr.length; i++) {
             int value = arr[i];
-            if(uni > value) {
-                while(uni > value ) {
+            if (uni > value) {
+                while (uni > value) {
                     value += x;
                     ans++;
                 }
             } else {
-                while(uni < value ) {
+                while (uni < value) {
                     value -= x;
                     ans++;
                 }
             }
-             if(value != uni) {
-                    ans = -1;
-                    break;
-                }
+            if (value != uni) {
+                ans = -1;
+                break;
+            }
         }
 
-       
         return ans;
     }
 }
