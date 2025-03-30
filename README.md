@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/praveenbalaje/LeetCode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
+| [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/praveenbalaje/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/praveenbalaje/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/praveenbalaje/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/praveenbalaje/LeetCode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/praveenbalaje/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/praveenbalaje/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/praveenbalaje/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/praveenbalaje/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/praveenbalaje/LeetCode/tree/master/1170-shortest-common-supersequence) |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/praveenbalaje/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0283-move-zeroes](https://github.com/praveenbalaje/LeetCode/tree/master/0283-move-zeroes) |
+| [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/praveenbalaje/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/praveenbalaje/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/praveenbalaje/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -344,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/praveenbalaje/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/praveenbalaje/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Tree
