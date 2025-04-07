@@ -15,9 +15,6 @@ class Solution {
             }
             if(res[target]) break;
         }
-        for(int i=0;i<res.length;i++) {
-            System.out.println(i + " " + res[i]);
-        }
         return res[target];
     }
 }
