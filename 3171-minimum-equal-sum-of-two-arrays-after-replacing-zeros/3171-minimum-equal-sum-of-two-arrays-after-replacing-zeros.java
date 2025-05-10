@@ -14,8 +14,6 @@ class Solution {
             if(nums2[i] == 0) z2++;
         }
 
-        System.out.println(s1 + " zero count " + z1);
-        System.out.println(s2 + " zero count " + z2);
 
         long zeroMax = Math.max(z1,z2);
         if(s1 == s2 && z1 == 0 && z2 == 0) return s1;
