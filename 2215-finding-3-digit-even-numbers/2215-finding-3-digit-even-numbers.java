@@ -5,9 +5,6 @@ class Solution {
         for(int i=0;i<digits.length;i++) {
             freq[digits[i]] += 1;
         }
-        for(int i=0;i<=9;i++){
-            System.out.println(i + " : " + freq[i]);
-        }
         for(int i=100;i<1000;i++) {
             if(i % 2 == 0) {
                 int val = i;
@@ -15,7 +12,6 @@ class Solution {
                 boolean b = true;
                 while(val>0) {
                     int rem = val % 10;
-                        System.out.println(rem + "  :  " + freq[rem]);
                     if(bk[rem] > 0) {
                         bk[rem] -= 1;
                     } else {
