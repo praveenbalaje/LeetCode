@@ -1,34 +1,41 @@
 class Solution {
     public int[] findEvenNumbers(int[] digits) {
-        int freq[] = new int[10];
-        List<Integer> ls = new ArrayList<>();
-        for(int i=0;i<digits.length;i++) {
-            freq[digits[i]] += 1;
+        // Frequency array to count each digit (0-9)
+        int[] freq = new int[10];
+        for (int digit : digits) {
+            freq[digit]++;
         }
-        for(int i=100;i<1000;i++) {
-            if(i % 2 == 0) {
-                int val = i;
-                int bk[] = Arrays.copyOf(freq, freq.length);;
-                boolean b = true;
-                while(val>0) {
-                    int rem = val % 10;
-                    if(bk[rem] > 0) {
-                        bk[rem] -= 1;
-                    } else {
-                        b = false;
-                        break;
-                    }
-                    val = val /10;
-                }
-                if(b) ls.add(i);
 
+        List<Integer> result = new ArrayList<>();
+
+        // Loop through all 3-digit even numbers (100 to 998)
+        for (int num = 100; num <= 999; num += 2) {
+            int[] tempFreq = Arrays.copyOf(freq, freq.length);
+            int val = num;
+            boolean isValid = true;
+
+            // Check if the current number can be formed from the digits
+            for (int i = 0; i < 3; i++) {
+                int digit = val % 10;
+                if (tempFreq[digit] == 0) {
+                    isValid = false;
+                    break;
+                }
+                tempFreq[digit]--;
+                val /= 10;
+            }
+
+            if (isValid) {
+                result.add(num);
             }
         }
 
-        int res[] = new int[ls.size()];
-        for(int i=0;i<ls.size();i++) {
-            res[i] = ls.get(i);
+        // Convert the result list to an array
+        int[] resArray = new int[result.size()];
+        for (int i = 0; i < result.size(); i++) {
+            resArray[i] = result.get(i);
         }
-        return res;
+
+        return resArray;
     }
 }
