@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/praveenbalaje/LeetCode/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/praveenbalaje/LeetCode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/praveenbalaje/LeetCode/tree/master/0066-plus-one) |
+| [0075-sort-colors](https://github.com/praveenbalaje/LeetCode/tree/master/0075-sort-colors) |
 | [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/praveenbalaje/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/praveenbalaje/LeetCode/tree/master/0136-single-number) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/praveenbalaje/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0075-sort-colors](https://github.com/praveenbalaje/LeetCode/tree/master/0075-sort-colors) |
 | [0283-move-zeroes](https://github.com/praveenbalaje/LeetCode/tree/master/0283-move-zeroes) |
 | [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/praveenbalaje/LeetCode/tree/master/0868-push-dominoes) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/praveenbalaje/LeetCode/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/praveenbalaje/LeetCode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
 | [0368-largest-divisible-subset](https://github.com/praveenbalaje/LeetCode/tree/master/0368-largest-divisible-subset) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/praveenbalaje/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
