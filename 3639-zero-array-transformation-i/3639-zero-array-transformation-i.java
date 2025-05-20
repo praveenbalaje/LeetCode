@@ -8,9 +8,6 @@ class Solution {
                 arr[queries[i][1]+1]++;
             }
         }
-        for(int i=0;i<arr.length;i++) {
-            System.out.println("i : "+ i + " arr : "+ arr[i]);
-        }
         int diff = 0;
         for(int i=0;i<nums.length;i++) {
             diff += arr[i];
