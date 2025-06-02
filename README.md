@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/praveenbalaje/LeetCode/tree/master/0075-sort-colors) |
 | [0090-subsets-ii](https://github.com/praveenbalaje/LeetCode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/praveenbalaje/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0135-candy](https://github.com/praveenbalaje/LeetCode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/praveenbalaje/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/praveenbalaje/LeetCode/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/praveenbalaje/LeetCode/tree/master/0283-move-zeroes) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0135-candy](https://github.com/praveenbalaje/LeetCode/tree/master/0135-candy) |
 | [0768-partition-labels](https://github.com/praveenbalaje/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/praveenbalaje/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/praveenbalaje/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
