@@ -14,7 +14,6 @@ class Solution {
                 odd = freq[i];
             }
         }
-        System.out.println("even : "+ even);
         return odd-even;
     }
 }
